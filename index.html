@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sk8-Hi</title>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">    
+<script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+<!--CSS only-->
+<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<style>
+    .navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active{
+     color: #f9004d;;
+}
+
+#reg, #log{
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition:  .4s;
+}
+#reg:hover, #log:hover{
+    transform: scale(1.2);
+}
+
+
+</style>
+<body>
+    <!--Nav Section-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+        <div class="container">
+            <img src="img/tara.png" alt="" class="rounded rounded-circle" style="height: 6rem;">
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto float-right">
+              
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="shop.html">SHOP</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">ABOUT US</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#fot">CONTACT US</a>
+              </li>
+              <li>
+                <a href="registration.html" class="btn pm-3" id="reg">Register</a>
+                <a href="login.html" class="btn pm-3" id="log">Log In</a>     
+            </li>
+             
+            </ul>
+           
+                
+          
+          </div>
+        </div>
+      </nav>
+    
+<!-- main -->
+<section>
+    <div>
+        <section id="home">
+            <div class="container">
+                <h5 class="text-light">Sk8-Hi</h5>
+                <h1 class="text-warning bg-transparent col-6">Eat<span>Sleep</span><span>Skate</span></h1>
+                <p class="text-white">Best prices of skate shoes for all skaters out there</p>
+                <a href="registration.html"><button class="buy-btn">Shop Now</button></a>
+            </div>
+        </section>
+    </div>
+    <!--brand section-->
+</section>
+<div id="brand" class="container mt-3">
+    <div class="row">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/vans_logo.jpg" alt="">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/nike_logo3.jpg" alt="">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/adio_logo.jpg" alt="">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/circa_logo.jpg" alt="">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/falle_logo.jpg" alt="">
+        <img class="img-fluid col-lg-2 col-md-4 col-6" src="img/dc_logo.jpg" alt="">
+    </div>
+</div>
+<!--new section-->
+<div id="new blog-container" class="w-100 mt-3">
+  <div class="row p-0 m-0">
+    <div class="one col-lg-4 col-md-12 col-12 p-0">
+        <img class="img-fluid" src="img/skating1.jpg" alt="">
+        <div class="details">
+            <center>
+            <h2 class="mt-3">Your Style</h2>
+        </center>
+        </div>
+    </div>
+    
+    <div class="one col-lg-4 col-md-12 col-12 p-0">
+        <img class="img-fluid" src="img/skating2.jpg" alt="">
+        <div class="details">
+            <center>
+            <h2 class="mt-3">Your Trick</h2>
+        </center>
+        </div>
+    </div>
+
+    <div class="one col-lg-4 col-md-12 col-12 p-0">
+        <img class="img-fluid" src="img/skating3.jpg" alt="">
+        <div class="details">
+            <center>
+            <h2 class="mt-3">Your Hype</h2>
+            </center>
+        </div>
+    </div>
+  </div>
+  
+</div><!--featured section-->
+<div id="featured " class="my-5 pb-5">
+    <div class="container text-center mt-5 py-5">
+        <h3>Our Featured</h3>
+        <hr class="mx-auto">
+        <p>Here you can check out our new products with fair price on Sk8-Hi!</p>
+    </div>
+    <div class="row mx-auto container">
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/vans14.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">vans Sk8-Hi Black</h5>
+        <h4 class="p-price">$60</h4>
+        <a href="registration.html"><button class="buy-btn">Buy Now</button></a>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/nike_sb_ishod_wair.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Nike SB Ishod Wair</h5>
+        <h4 class="p-price">$45</h4>
+        <a href="registration.html"><button class="buy-btn">Buy Now</button></a>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/nike_sb_zoom_blazer_low.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Nike SB Zoom Blazer Low</h5>
+        <h4 class="p-price">$50</h4>
+        <a href="registration.html"><button class="buy-btn">Buy Now</button></a>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/vans13.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Vans Old Skool White</h5>
+        <h4 class="p-price">$10</h4>
+        <a href="registration.html"><button class="buy-btn">Buy Now</button></a>
+        </div>
+    </div>
+</div>
+<!--banner-->
+<div id="banner" class="my-5 py-5">
+    <div class="container fw-light">
+        <h4>MID SEASON'S SALE</h4>
+        <h1 class="text-bold">Autumn Collection<br><span id="up">UP TO 20% OFF</span></h1>
+        <a href="registration.html"><button class="text-uppercase">Shop Now</button></a>
+    </div>
+</div>
+<!--clothes-->
+<div id="clothes" class="my-5 pb-5">
+    <div class="container text-center mt-5 py-5">
+        <h3>Our Best Seller</h3>
+        <hr class="mx-auto">
+        <p>Here's the list of our best seller shoes this season</p>
+    </div>
+    <div class="row mx-auto container-fluid">
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/nike_sb_pogo.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Nike SB Pogo</h5>
+        <h4 class="p-price">$1</h4>
+        <a href="registration.html"><button class="buy-btn">Buy Now</button></a>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/nike_sb_chron_2_slip.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Nike SB Chron 2 Slip</h5>
+        <h4 class="p-price">$1</h4>
+        <a href="registration.html"><button class="buy-btn">Buy Now</button></a>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/nike_sb_zoom_blazer_low.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Nike SB Zoom Blazer Low</h5>
+        <h4 class="p-price">$1</h4>
+        <a href="registration.html"><button class="buy-btn">Buy Now</button></a>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/nike_sb_force_58.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Nike SB Force 58</h5>
+        <h4 class="p-price">$1</h4>
+        <a href="registration.html"><button class="buy-btn">Buy Now</button></a>
+        </div>
+    </div>
+</div>
+             <!--watches-->
+<div id="watches" class="my-5 pb-5">
+    <div class="container text-center">
+        <h3>Chosen by Youths</h3>
+        <hr class="mx-auto">
+        <p>Here's the list of most selling shoes for youths.</p>
+    </div>
+    <div class="row mx-auto container-fluid">
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/vans15.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Vans Sk8-Hi Cream</h5>
+        <h4 class="p-price">$34</h4>
+        <a href="registration.html"><button class="buy-btn">Buy Now</button></a>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/vans16.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Vans Trujillo Leather Brown</h5>
+        <h4 class="p-price">$23</h4>
+        <a href="registration.html"><button class="buy-btn">Buy Now</button></a>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/vans14.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Vans Sk8-Hi Black</h5>
+        <h4 class="p-price">$32</h4>
+        <a href="registration.html"><button class="buy-btn">Buy Now</button></a>
+        </div>
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/vans11.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Vans Half Cab Black</h5>
+        <h4 class="p-price">$64</h4>
+        <a href="registration.html"><button class="buy-btn">Buy Now</button></a>
+        </div>
+    </div>
+</div>
+<br> <br> <br> <br> <br> <br>
+
+<!-- Footer -->
+<footer class="text-center text-lg-start bg-dark text-muted" id="fot">
+    <!-- Section: Social media -->
+    <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+      <!-- Left -->
+      <div class="me-5 d-none d-lg-block">
+        <span>Get connected with us on social networks:</span>
+      </div>
+      <!-- Left -->
+  
+      <!-- Right -->
+      <div>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-google"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="" class="me-4 text-reset">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+      <!-- Right -->
+    </section>
+    <!-- Section: Social media -->
+  
+    <!-- Section: Links  -->
+    <section class="">
+      <div class="container text-center text-md-start mt-5">
+        <!-- Grid row -->
+        <div class="row mt-3">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+            <!-- Content -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              <i class="fas fa-gem me-3"></i>Company name
+            </h6>
+            <p id="comp">
+              Here you can use rows and colum
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset">Angular</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">React</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Vue</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Laravel</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4 ">
+              Useful links
+            </h6>
+            <br>
+            <p>
+              <a href="#!" class="text-reset price">Pricing</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Settings</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Orders</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset">Help</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+  
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+            <!-- Links -->
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+            <p>
+              <i class="fas fa-envelope me-3"></i>
+              info@example.com
+            </p>
+            <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+        </div>
+        <!-- Grid row -->
+      </div>
+    </section>
+    <!-- Section: Links  -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+      © 2021 Copyright:
+      <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Footer -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+
+</body>
+</html>

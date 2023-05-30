@@ -1,0 +1,1394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SK8 Hi</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+    crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" 
+    crossorigin="anonymous"></script>
+    <script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>
+
+    <!--CSS only-->
+    <link rel="stylesheet" type="text/css" href="style.css" >
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" 
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" 
+    referrerpolicy="no-referrer" />
+    <style>
+        #cart1{
+            border-radius: 10px;
+        }
+        #detail_s{
+            text-align: justify;
+        }
+        .navbar-nav{
+          margin-left: 200px;
+        }
+        .navbar-light .navbar-nav .nav-link{
+    padding: 0 20px;
+    color: black;
+    transition: 0.3s ease;
+}
+
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link.active{
+     color: #f9004d;
+}
+    </style>
+    <script src="tab.js" defer></script>
+</head>
+<body>
+ <!--Nav Section-->
+ <nav class="navbar navbar-expand-lg navbar-light bg-light py-3">
+  <div class="container">
+      <img src="img/tara.png" alt="" class="rounded rounded-circle" style="height: 6rem;">
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav  float-right">
+        
+        <li class="nav-item">
+          <a class="nav-link" href="index_login.html">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="shop_v2.html">SHOP</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about2.html">ABOUT US</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactus.html">CONTACT US</a>
+        </li>
+        <li class="cart"><a href="cart.html"><iconify-icon icon="emojione-monotone:shopping-cart" width="25" height="25"></iconify-icon><span style="color: red;" class="m-3">0</span></a></li>
+        <li>
+          <a href="login.html" class="btn p-2 ">Log Out</a>     
+      </li>
+       
+      </ul>
+      
+          
+    
+    </div>
+  </div>
+</nav>
+
+<!--featured section-->
+<div id="featured" class="my-5 py-5">
+    <div class="container mt-5 py-5">
+        <h3>Choose on our brands</h3>
+        <hr>
+        <ul class="tabs">
+            <li data-tab-target="#vans" class="active tab">VANS</li>
+            <li data-tab-target="#nike" class="tab">NIKE</li>
+            <li data-tab-target="#dc" class="tab">DC</li>
+            <li data-tab-target="#converse" class="tab">CONVERSE</li>
+            <li data-tab-target="#adidas" class="tab">ADIDAS</li>
+        </ul>
+    </div>
+</div>
+
+<div class="tab-content">
+    <div class="active row mx-auto container" id="vans" data-tab-content> <!-- PRODUCT SECTION STARTS HERE -->
+      <!-- PRODUCT 1--> <!-- vans section -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="img/vans1.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">SK8-Hi</h5>
+            <h4 class="p-price">$75.00</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- PRODUCT 2 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans2.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Checkerboard Classic Slip-On</h5>
+          <h4 class="p-price">$100</h4>
+          <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- PRODUCT 3 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans3.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Authentic</h5>
+            <h4 class="p-price">$25</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- PRODUCT 4 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans4.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Old Skool</h5>
+            <h4 class="p-price">$10</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- PRODUCT 5 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans5.jpg">
+            <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Vans X Noon Goons Aut. 44 DX</h5>
+            <h4 class="p-price">$92.3</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- PRODUCT 6 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans6.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Team Wellness Sk8-Hi</h5>
+            <h4 class="p-price">$100</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- PRODUCT 7 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans7.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Authentic Brown</h5>
+            <h4 class="p-price">$25</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- PRODUCT 8 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans8.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">CB Classic Slip-On (Brown/White)</h5>
+            <h4 class="p-price">$10</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- product 9 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans9.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Textured Classic Slip-On</h5>
+            <h4 class="p-price">$92.3</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- product 10 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans10.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">After Dark ComfyCush Old Skool</h5>
+            <h4 class="p-price">$100</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- product 11 --> 
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans11.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Old Skool Overt CC</h5>
+            <h4 class="p-price">$25</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- product 12 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans12.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">CB Classic Slip-On (Orange)</h5>
+            <h4 class="p-price">$10</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- product 13 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans13.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Vintage Pop Old Skool</h5>
+            <h4 class="p-price">$92.3</h4>
+            <button type="button" class="buy-btn">Add to cart</button> 
+        </div>
+
+      <!-- product 14 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans14.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Textured Sk8-Hi</h5>
+            <h4 class="p-price">$100</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- product 15 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans15.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Vintage Pop Sk8-Hi</h5>
+            <h4 class="p-price">$25</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- product 16 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans16.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Old Skool Overt CC</h5>
+            <h4 class="p-price">$10</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- product 17 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans17.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Pop Color Old Skool Overt CC</h5>
+            <h4 class="p-price">$92.3</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- product 18 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans18.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Old Skool (Brown)</h5>
+            <h4 class="p-price">$100</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- product 19 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans19.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Anaheim Factory Authentic 44 DX</h5>
+            <h4 class="p-price">$25</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      <!-- product 20 -->
+        <div class="product text-center col-lg-3 col-md-4 col-12">
+            <img class="img-fluid bro mb-3" src="/img/vans20.jpg">
+            <div class="star">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            </div>
+            <h5 class="p-name">Classic Slip-On (Triple White)</h5>
+            <h4 class="p-price">$10</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+        </div>
+
+      </div>
+
+      <div class="row mx-auto container" id="nike" data-tab-content> <!-- NIKE -->
+        <!-- PRODUCT 1-->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike_sb_chron_2_slip.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike SB Chron 2 Slip</h5>
+              <h4 class="p-price">$75.00</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- PRODUCT 2 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike_sb_force_58.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike SB Force 58</h5>
+            <h4 class="p-price">$100</h4>
+            <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- PRODUCT 3 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike_sb_ishod_wair.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike SB Ishod Wair</h5>
+              <h4 class="p-price">$25</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- PRODUCT 4 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike_sb_pogo.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike SB Pogo</h5>
+              <h4 class="p-price">$10</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- PRODUCT 5 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike_sb_zoom_blazer_low.jpg">
+              <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike SB Zoom Blazer Low</h5>
+              <h4 class="p-price">$92.3</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- PRODUCT 6 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike_sb_zoom_blazer_mid.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike SB Zoom Blazer Mid</h5>
+              <h4 class="p-price">$100</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- PRODUCT 7 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike1_sb_bruin_hi_iso.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike SB Bruin Hi ISO</h5>
+              <h4 class="p-price">$25</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- PRODUCT 8 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike2_sb_zoom_blazer_mid_premium_plus.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike SB ZOOM Blazer Mid Premium Plus</h5>
+              <h4 class="p-price">$10</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- product 9 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike3_sb_ishod_wair_premium.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike SB Ishod Wair Premium</h5>
+              <h4 class="p-price">$92.3</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- product 10 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike4_sb_zoom_blazer_mid_premium.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike SB Zoom Blazer Mid Premium</h5>
+              <h4 class="p-price">$100</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- product 11 --> 
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike5_sb_pogo_premium.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike SB Pogo Premium</h5>
+              <h4 class="p-price">$25</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- product 12 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike6_bruin_premium.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike Bruin Premium</h5>
+              <h4 class="p-price">$10</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- product 13 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike7_sb_blazer_court_mid_prm.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike SB Blazer Court Mid</h5>
+              <h4 class="p-price">$92.3</h4>
+              <button type="button" class="buy-btn">Add to cart</button> 
+          </div>
+  
+        <!-- product 14 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike8_sb_blazer_lowpro_gt_premium.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike SB Blazer Low-Pro GT Premium</h5>
+              <h4 class="p-price">$100</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- product 15 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike9_sb_chron_2_canvas.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike SB Chron 2 Canvas</h5>
+              <h4 class="p-price">$25</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- product 16 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike10_blazer_zoom_prm.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike Blazer Zoom PRM</h5>
+              <h4 class="p-price">$10</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- product 17 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike11_ishod_blazer_prm.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike Ishod Blazer PRM</h5>
+              <h4 class="p-price">$92.3</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- product 18 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike12_sb_dunk_high-pro.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike SB Dunk High Pro</h5>
+              <h4 class="p-price">$100</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- product 19 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike13_sb_bruin_react.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike SB Bruin React</h5>
+              <h4 class="p-price">$25</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+  
+        <!-- product 20 -->
+          <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/nike15_SB_Shane.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Nike SB Shane</h5>
+              <h4 class="p-price">$10</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+          </div>
+        </div>
+
+        <div class="row mx-auto container" id="dc" data-tab-content> <!-- PRODUCT SECTION STARTS HERE -->
+          <!-- PRODUCT 1--> <!-- DC -->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid bro mb-3" src="/img/dc_manteca_orange.jpg">
+                <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">DC Manteca Orange</h5>
+                <h4 class="p-price">$22.00</h4>
+                <button type="button" class="buy-btn">Add to cart</button>
+            </div>
+    
+          <!-- PRODUCT 2 -->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid bro mb-3" src="/img/dc10_aw_manual_hi_shoes_bb2.jpg">
+                <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">AW Hi Shoes BB2</h5>
+              <h4 class="p-price">$49</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+            </div>
+    
+          <!-- PRODUCT 3 -->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid bro mb-3" src="/img/dc10_aw_manual_hi_shoes_xkwr.jpg">
+                <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">AW Hi Shoes BB2 XKWR</h5>
+                <h4 class="p-price">$25</h4>
+                <button type="button" class="buy-btn">Add to cart</button>
+            </div>
+    
+          <!-- PRODUCT 4 -->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid bro mb-3" src="/img/dc13_anvil_shoes_kso.jpg">
+                <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Anvil Shoes KSO</h5>
+                <h4 class="p-price">$52</h4>
+                <button type="button" class="buy-btn">Add to cart</button>
+            </div>
+    
+          <!-- PRODUCT 5 -->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid bro mb-3" src="/img/dc3_metric_black.jpg">
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Metric Black</h5>
+                <h4 class="p-price">$43</h4>
+                <button type="button" class="buy-btn">Add to cart</button>
+            </div>
+    
+          <!-- PRODUCT 6 -->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid bro mb-3" src="/img/dc4_manteca4.jpg">
+                <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Manteca 4</h5>
+                <h4 class="p-price">$46</h4>
+                <button type="button" class="buy-btn">Add to cart</button>
+            </div>
+    
+          <!-- PRODUCT 7 -->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid bro mb-3" src="/img/dc6_aw_manual_hi_shoes_desert.jpg">
+                <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Manual Hi Shoes Desert</h5>
+                <h4 class="p-price">$25</h4>
+                <button type="button" class="buy-btn">Add to cart</button>
+            </div>
+    
+          <!-- PRODUCT 8 -->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid bro mb-3" src="/img/dc7_anvil_shoes.jpg">
+                <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Anvil Shoes</h5>
+                <h4 class="p-price">$17</h4>
+                <button type="button" class="buy-btn">Add to cart</button>
+            </div>
+    
+          <!-- product 9 -->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid bro mb-3" src="/img/dc9_anvil_mens_dny.jpg">
+                <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Anvil Mens DNY</h5>
+                <h4 class="p-price">$24.3</h4>
+                <button type="button" class="buy-btn">Add to cart</button>
+            </div>
+    
+          <!-- product 10 -->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid bro mb-3" src="/img/dc5_aw_manual_hi_shoes.jpg">
+                <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">AW Manual Shoes Classic</h5>
+                <h4 class="p-price">$100</h4>
+                <button type="button" class="buy-btn">Add to cart</button>
+            </div>
+    
+          <!-- product 11 --> 
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid bro mb-3" src="/img/dc10_aw_manual_hi_shoes_xkwr.jpg">
+                <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Manual Hi Shoes ZXC</h5>
+                <h4 class="p-price">$25</h4>
+                <button type="button" class="buy-btn">Add to cart</button>
+            </div>
+    
+          <!-- product 12 -->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid bro mb-3" src="/img/dc8_anvil_mens.jpg">
+                <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Anvil Mens Frost</h5>
+                <h4 class="p-price">$10</h4>
+                <button type="button" class="buy-btn">Add to cart</button>
+            </div>
+          </div>
+
+          <div class="row mx-auto container" id="converse" data-tab-content> <!-- PRODUCT SECTION STARTS HERE -->
+            <!-- PRODUCT 1--> <!-- converse -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/con1_onestar_pro_vintage.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">CONS One Star Pro Vintage</h5>
+                  <h4 class="p-price">$75</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- PRODUCT 2 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/con2_louie_lopez_pro_mid.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">CONS Louie Lopez Pro Mid</h5>
+                <h4 class="p-price">$75</h4>
+                <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- PRODUCT 3 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/con3_louie_lopez_pro.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">CONS Louie Lopez Pro</h5>
+                  <h4 class="p-price">$75</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- PRODUCT 4 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/con4_onestar_pro_cordura_canvas.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">CONS One Star Pro Cordura Canvas</h5>
+                  <h4 class="p-price">$75</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- PRODUCT 5 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/con5_onestar_pro_cordura_canvas_white.jpg">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">CONS One Star Pro Cordura Canvas White</h5>
+                  <h4 class="p-price">$75</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- PRODUCT 6 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/con6_chuck_taylor_all_star_pro_cordura_canvas.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">CONS Chuck Taylor All-Star Pro Cordura Canvas</h5>
+                  <h4 class="p-price">$70</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- PRODUCT 7 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/con7_one_star_pro_suede.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">CONS One Star Pro Suede</h5>
+                  <h4 class="p-price">$75</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- PRODUCT 8 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/con8_cons_pl_vulc_pro.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">CONS PL Vulc Pro</h5>
+                  <h4 class="p-price">$75</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- product 9 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/con9_chuck_taylor_allstar_pro_mid_renew_70.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">Chuck Taylor All-Star Pro Mid Renew</h5>
+                  <h4 class="p-price">$70</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- product 10 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/con10_cons_fastbreak_pro_sage_85.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">Fastbreak Pro Sage</h5>
+                  <h4 class="p-price">$85</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- product 11 --> 
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/con11_cons_pl_vulc_pro_suede.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">PL Vulc Pro Suede</h5>
+                  <h4 class="p-price">$80</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- product 12 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/con12_cons_chuck_70_vintage_canvass_80.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">Chuck 70 Vintage Canvas</h5>
+                  <h4 class="p-price">$80</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+              <!-- product 13 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                <img class="img-fluid bro mb-3" src="/img/con13_cons_chuck_70_vintage_canvas_85.jpg">
+                <div class="star">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                </div>
+                <h5 class="p-name">Chuck 70 Vintage Canvas Pro</h5>
+                <h4 class="p-price">$85</h4>
+                <button type="button" class="buy-btn">Add to cart</button>
+            </div>
+            <!-- product 14 -->
+            <div class="product text-center col-lg-3 col-md-4 col-12">
+              <img class="img-fluid bro mb-3" src="/img/con14_cons_fastbreak_pro_80.jpg">
+              <div class="star">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              </div>
+              <h5 class="p-name">Fastbreak Pro</h5>
+              <h4 class="p-price">$80</h4>
+              <button type="button" class="buy-btn">Add to cart</button>
+            </div>
+          </div>
+
+          <div class="row mx-auto container" id="adidas" data-tab-content> <!-- PRODUCT SECTION STARTS HERE -->
+            <!-- PRODUCT 1--> <!-- ADIDAS -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/ad1_nora_shoes.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">Nora Shoes</h5>
+                  <h4 class="p-price">$85</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- PRODUCT 2 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/ad2_vulc_raid3r_sb_shoes_80.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">VULC Raid3r SB Shoes</h5>
+                <h4 class="p-price">$80</h4>
+                <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- PRODUCT 3 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/ad3_daily_3_pt_0_90.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">Daily 3.0 Skateboarding Shoes</h5>
+                  <h4 class="p-price">$90</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- PRODUCT 4 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/ad4_vl_court_2pt0_80.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">VL Court 2.0</h5>
+                  <h4 class="p-price">$80</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- PRODUCT 5 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/ad5_daily_3pt0_85.jpg">
+                  <div class="star">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">Daily 3.0</h5>
+                  <h4 class="p-price">$85</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- PRODUCT 6 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/ad6_bravada_90.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">BRAVADA</h5>
+                  <h4 class="p-price">$90</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- PRODUCT 7 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/ad7_futurevulc_lifestyle_sb_100.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">Futurevulc Lifestyle Shoes</h5>
+                  <h4 class="p-price">$100</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- PRODUCT 8 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/ad8_lifestyle_sb_suede_100.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">Lifestyle SB Suede</h5>
+                  <h4 class="p-price">$100</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- product 9 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/ad10_fa_experiment2_100.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">FA Experiment 2</h5>
+                  <h4 class="p-price">$100</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- product 10 -->
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/ad11_vulc raid3r_sb_Slip-On_canvas_105.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">VULC Raid3r SB Slip-On Canvas</h5>
+                  <h4 class="p-price">$105</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+      
+            <!-- product 11 --> 
+              <div class="product text-center col-lg-3 col-md-4 col-12">
+                  <img class="img-fluid bro mb-3" src="/img/ad12_fa_experiment_1_105.jpg">
+                  <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  </div>
+                  <h5 class="p-name">FA Experiment 1</h5>
+                  <h4 class="p-price">$105</h4>
+                  <button type="button" class="buy-btn">Add to cart</button>
+              </div>
+          </div>
+    </div>
+    <br> <br> <br> <br> <br> <br>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-muted" id="fot">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+          <!-- Left -->
+          <div class="me-5 d-none d-lg-block">
+            <span>Get connected with us on social networks:</span>
+          </div>
+          <!-- Left -->
+      
+          <!-- Right -->
+          <div>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-twitter"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-google"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-instagram"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="" class="me-4 text-reset">
+              <i class="fab fa-github"></i>
+            </a>
+          </div>
+          <!-- Right -->
+        </section>
+        <!-- Section: Social media -->
+      
+        <!-- Section: Links  -->
+        <section class="">
+          <div class="container text-center text-md-start mt-5">
+            <!-- Grid row -->
+            <div class="row mt-3">
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                <!-- Content -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  <i class="fas fa-gem me-3"></i>Company name
+                </h6>
+                <p id="comp">
+                  Here you can use rows and colum
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">
+                  Products
+                </h6>
+                <p>
+                  <a href="#!" class="text-reset">Angular</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">React</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Vue</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Laravel</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4 ">
+                  Useful links
+                </h6>
+                <br>
+                <p>
+                  <a href="#!" class="text-reset price">Pricing</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Settings</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Orders</a>
+                </p>
+                <p>
+                  <a href="#!" class="text-reset">Help</a>
+                </p>
+              </div>
+              <!-- Grid column -->
+      
+              <!-- Grid column -->
+              <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                <!-- Links -->
+                <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                <p><i class="fas fa-home me-3"></i> New York, NY 10012, US</p>
+                <p>
+                  <i class="fas fa-envelope me-3"></i>
+                  info@example.com
+                </p>
+                <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                <p><i class="fas fa-print me-3"></i> + 01 234 567 89</p>
+              </div>
+              <!-- Grid column -->
+            </div>
+            <!-- Grid row -->
+          </div>
+        </section>
+        <!-- Section: Links  -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.05);">
+          © 2021 Copyright:
+          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+      <!-- Footer -->
+    
+
+
+
+
+<script src="main.js" defer></script>
+</body>
+</html>
